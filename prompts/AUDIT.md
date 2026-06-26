@@ -41,7 +41,7 @@
 1. **工具约束属于 tool description，不属于 system prompt** — "Provide extremely detailed descriptions. This is by far the most important factor in tool performance."
 2. **正向指令优于否定指令** — "Tell Claude what to do instead of what not to do."
 3. **XML 标签用于结构化** — 最终未采用。
-4. **简洁精确优于冗长** — Claude 更字面解读 prompt，少行精确胜过长篇。
+4. **简洁精确优于冗长** — Claude 更字面的解读 prompt，少行精确胜过长篇。
 
 核心转变：v1.7.6 塑形 agent 输出策略（强制流水线、强制按钮、强制模板）→ 重设计后只声明渠道事实和工具契约，agent 自主决定行为。
 
